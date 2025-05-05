@@ -1,0 +1,11 @@
+# Introduction to Graph Theory  
+
+## Definition  
+A graph is a structure \( G = (V, E) \), where:  
+- \( V \): Vertices (nodes)  
+- \( E \): Edges (connections)  
+
+## Key Concepts  
+1. **Applications**: Social networks, molecular structures, etc.  
+2. **Node Degree**: Number of edges per node.  
+3. **Edge Weights**: Numerical values on edges. 
