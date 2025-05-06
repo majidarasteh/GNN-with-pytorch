@@ -10,3 +10,19 @@
 2. **Non-Uniform Node Distances**: In grids, "distance" is well-defined (e.g., Manhattan distance). In graphs, the path length between nodes may vary (e.g., two nodes could be 1 hop or 10 hops apart).
 3. **Variable Feature Dimensions**: Nodes/edges may have heterogeneous feature sizes (e.g., a molecular graph with atoms of different attribute sets).
 4. **Heterogeneous Graphs**: Nodes/edges may represent different entity types (e.g., in a knowledge graph: "User," "Movie," "Genre").
+
+# Understanding Graphs as Generic Signal Structures
+1. **Traditional 1D Signals (Regular Structure)**
+    Consider a 1D discrete signal, like a time series where:
+     - Dimension: Time (e.g., seconds from 0 to 60).
+     - Samples: Signal values at uniform intervals (e.g., temperature every second).
+       
+   **Key Property:**
+     -  The spacing between samples is fixed (e.g., 1 second).
+     -  Mathematically, this is a regular grid (like a line of evenly spaced points
+       
+   **Example:**
+     -  Time (s):	0	1	2	3	...
+     -  Value:	2	4	1	5	...
+       
+3.  **Irregular Signals as Graphs**
